@@ -1,12 +1,11 @@
 const router = require('express').Router();
 const fs = require('fs');
+const util = require('util');
 
-// get /api/notes
+// get /api/notes 
 router.get('/notes', (req, res) => {
-    fs.readFile('../db/db.json', (err, data) => {
-        if (err) throw err;
-        console.log(data);
-      });
+    util.promisify(fs.readFile('../db/db.json'))
+    .then(notes => console.log(notes))
 })
 
 module.exports = router;
