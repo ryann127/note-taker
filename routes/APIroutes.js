@@ -28,5 +28,13 @@ router.post('/notes', (req, res) => {
     res.json("your note is saved");
 })
 
+router.delete('/notes/:id', (req, res) => {
+    readFromFile('./db/db.json')
+    .then((result) => {
+        let dbParse = JSON.parse(result);
+        lastParse = dbParse.filter(result => result.id !== req.params.id);
+        writeToFile('./db/db.json', lastParse)
+    })
+})
 
 module.exports = router;
