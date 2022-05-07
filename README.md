@@ -21,7 +21,7 @@ git clone the following repository:
     git@github.com:ryann127/note-taker.git
 
  ## Usage
- Run npm init then npm install. Make sure Express is installed. Once everything is installed, run "node server.js" and follow the link for the live server. Insert notes and save/delete them ask you would like.
+ Run npm init then npm install. Make sure Express is installed. Once everything is installed, run "node server.js" and follow the link for the live server. Insert notes and save/delete them as you would like.
 
  ## License
 
@@ -30,7 +30,15 @@ git clone the following repository:
  https://opensource.org/licenses/Apache-2.0
 
  ## Contributing
- You will need to create a pull request and features will be merged upon review.
+To contribute to this application, create a pull request:
+
+- Fork the repo
+- Create a feature branch 
+- Commit your new feature 
+- Push your branch 
+- Create a new Pull Request
+
+Upon code review approval, your feature will be merged.
 
  ## Tests
  N/A
