@@ -15,6 +15,10 @@
 ## Description
  This project uses node, express, and javascript to createa note taking website via APIs. JSON should be updated with additional notes provided and deleted upon request so that, on the front end, it displays current and relevant notes that can be saved or deleted
 
+ ![Screenshot of App](./images/NoteTaking.png)
+
+ [Deployed Application](https://ryann127-notetaker.herokuapp.com/notes)
+
  ## Installation
 git clone the following repository: 
 
